@@ -10,7 +10,9 @@ int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
+		printf("%c:%d\n",c)
 		return (1);
 	}
+	printf("%c:%d\n",c)
 	return (0);
 }
