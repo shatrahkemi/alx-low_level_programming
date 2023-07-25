@@ -1,18 +1,15 @@
- #include "main.h"
+#include "main.h"
 
 /**
- * print_last_digit - Prints the absolute value of an integer.
- * @i: The number in question(input).
- *
- * Return: absolute Value .
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
-int _abs(int i)
-	if (i >= 0)
+int _abs(int n)
+{
+	if (n >= 0)
 	{
-	return (i);
+		return (n);
 	}
-	else
-	{
-		return (i * -1);
-	}
+	return (-n);
 }
